@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const serverless = require("serverless-http");
+const router = express.Router();
 const puppeteer = require('puppeteer');
 
 app.get('/', (req, res) => {
@@ -45,3 +46,6 @@ app.listen(port, () => {
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
+
+module.exports = app;
+module.exports.handler = serverless(app);
