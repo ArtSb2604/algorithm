@@ -11,10 +11,7 @@ app.get('/', (req, res) => {
     try {
         const dateValue = req.query.date;
 
-        const browser = await puppeteer.launch({
-            executablePath: process.env.CHROMIUM_PATH,
-            args: ['--no-sandbox'], // This was important. Can't remember why
-          });
+        const browser = await puppeteer.launch();
         const page = await browser.newPage();
               
         await page.goto('https://unique-biscotti-fecc9f.netlify.app'); // Replace with the desired URL
