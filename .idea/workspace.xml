@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0806463-a575-45b6-9c24-baf46c7a3a4a" name="Changes" comment="add node js" />
+    <list default="true" id="a0806463-a575-45b6-9c24-baf46c7a3a4a" name="Changes" comment="add node js">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,7 +26,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "true",
-    "last_opened_file_path": "C:/Users/sboev/Desktop/algorithm",
+    "last_opened_file_path": "C:/Users/sboev/PycharmProjects/sliva-main",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm"
@@ -39,6 +41,7 @@
       <option name="presentableId" value="Default" />
       <updated>1691182058811</updated>
       <workItem from="1691182060363" duration="86000" />
+      <workItem from="1691188987207" duration="46000" />
     </task>
     <servers />
   </component>
