@@ -1,0 +1,108 @@
+.table_list {
+    width: 60%;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myChart {
+    width: 100%;
+    max-width: 1200px;
+    height: 250px;
+    max-height: 250px;
+}
+
+#myChart1 {
+    width: 100%;
+    max-width: 1200px;
+    height: 250px;
+    max-height: 250px;
+}
+
+.graphs {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forms {
+    height: 400px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.forms__input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input[type="date"]{
+    background-color: #fff;
+    padding: 15px;
+    font-family: "Roboto Mono",monospace;
+    color: #000;
+    font-size: 18px;
+    border: 1px solid #000;
+    outline: none;
+    border-radius: 5px;
+    height: 38px;
+    margin: 0;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.result {
+    margin-top: 30px;
+}
+
+.result h4 {
+    text-align: center;
+}
+
+.date_r {
+    display: flex;
+    gap: 20px;
+}
+
+.sum {
+    display: flex;
+    gap: 20px;
+}
+
+.matrix {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.matrix div {
+    display: flex;
+}
+
+.matrix p {
+    width: 40px;
+}
+
+.info {
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1000px) {
+    .table_list {
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .forms {
+        height: auto;
+    }
+}
