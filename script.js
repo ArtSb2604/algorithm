@@ -351,3 +351,6 @@ var options = {
 html2pdf().set(options).from(element).save();
     
 }
+
+
+
