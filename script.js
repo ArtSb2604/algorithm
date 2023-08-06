@@ -321,20 +321,7 @@ function countDigits(number) {
 
 
 function generatePDF() {
-    html2canvas(document.getElementById('body')).then(function(canvas2) {
-        // Создание PDF документа
-        window.jsPDF = window.jspdf.jsPDF
-        var pdfDoc = new jsPDF();
-
-        // Добавление первого графика в PDF
-
-        // Добавление второго графика в PDF
-        var imgData2 = canvas2.toDataURL('image/jpeg', 1.0);
-        pdfDoc.addImage(imgData2, 'JPEG', -20, -2, 250, 300);
-
-        // Сохранение PDF файла
-        pdfDoc.save('charts.pdf');
-    });
+    window.open(`http://194.67.65.35:3000/generate-pdf?date=${$('input[type=date]').val()}&site=https://unique-biscotti-fecc9f.netlify.app`);
 }
 
 function generatePDF_mob() {
