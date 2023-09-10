@@ -321,7 +321,7 @@ function countDigits(number) {
 
 
 function generatePDF() {
-    window.open(`http://134.0.119.88:3000/generate-pdf?date=${$('input[type=date]').val()}&gender=${$('.form-select').val()}&site=https://unique-biscotti-fecc9f.netlify.app`);
+    window.open(`http://134.0.119.88:3000/generate-pdf?date=${$('input[type=date]').val()}&gender=${$('.form-select').val()}&site=https://artsb2604.github.io/algorithm/`);
 }
 
 function generatePDF_mob() {
